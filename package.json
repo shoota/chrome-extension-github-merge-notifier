@@ -9,6 +9,9 @@
   "dependencies": {
     "webextension-polyfill-ts": "^0.25.0"
   },
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
     "@types/copy-webpack-plugin": "^6.4.0",
     "@types/webpack": "^4.41.26",

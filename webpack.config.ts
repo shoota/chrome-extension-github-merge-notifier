@@ -23,9 +23,9 @@ const config = () => {
       extensions: ['.ts', '.js']
     },
     plugins: [
-      new CopyWebpackPlugin([
+      new CopyWebpackPlugin({patterns: [
         { from: 'public', to: '.' }
-      ] as any)
+      ]})
     ]
   }
 }
